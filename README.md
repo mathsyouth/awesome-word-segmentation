@@ -8,6 +8,7 @@ A curated list of resources dedicated to word segmentation
 ### Chinese Word Segmentation Packages
 
 1. [Jieba 结巴中文分词](https://github.com/fxsjy/jieba)
+1. [HanLP: Han Language Processing](https://github.com/hankcs/HanLP) 是由一系列模型与算法组成的NLP工具包，目标是普及自然语言处理在生产环境中的应用。[pyhanlp](https://github.com/hankcs/pyhanlp) 是 HanLP 的 Python 接口。 
 1. [SnowNLP: Simplified Chinese Text Processing](https://github.com/isnowfy/snownlp) 提供中文分词功能，分词是基于 [Character-Based Generative Model](http://aclweb.org/anthology//Y/Y09/Y09-2047.pdf) 实现
 1. [THULAC (THU Lexical Analyzer for Chinese)](https://github.com/thunlp/THULAC-Python) 由清华大学自然语言处理与社会人文计算实验室研制推出的一套中文词法分析工具包，具有中文分词和词性标注功能
 1. [kcws 深度学习中文分词](https://github.com/koth/kcws) BiLSTM+CRF 与 IDCNN+CRF
