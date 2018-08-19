@@ -22,4 +22,7 @@ A curated list of resources dedicated to word segmentation
 1. [ChineseWordSegmentation](https://github.com/Moonshile/ChineseWordSegmentation) Chinese word segmentation algorithm without corpus（无需语料库的中文分词）
 1. 语言技术平台[LTP: Language Technology Platform](https://github.com/HIT-SCIR/ltp) 提供分词功能；[pyltp](https://github.com/HIT-SCIR/pyltp) 是该平台的 Python 封装
 1. [ICTCLAS](https://github.com/NLPIR-team/NLPIR-ICTCLAS) 分词工具。
-
+1. [jcseg](https://github.com/lionsoul2014/jcseg)是基于 mmseg 算法的一个轻量级中文分词器，同时集成了关键字提取，关键短语提取，关键句子提取和文章自动摘要等功能，并且提供了一个基于Jetty的web服务器，方便各大语言直接http调用，同时提供了最新版本的lucene, solr, elasticsearch的分词接口。
+1. [sego](https://github.com/huichen/sego) Go 中文分词，它的词典用双数组trie（Double-Array Trie）实现， 分词器算法为基于词频的最短路径加动态规划。支持普通和搜索引擎两种分词模式，支持用户词典、词性标注，可运行JSON RPC服务。
+1. [ansj_seg](https://github.com/NLPchina/ansj_seg) 是一个基于n-Gram+CRF+HMM 的中文分词的java实现。分词速度达到每秒钟大约200万字左右（mac air下测试），准确率能达到96%以上。目前实现了中文分词、中文姓名识别、用户自定义词典、关键字提取、自动摘要、关键字标记等功能。可以应用到自然语言处理等方面,适用于对分词效果要求高的各种项目.
+1. [word](https://github.com/ysc/word) 分词是一个Java实现的分布式的中文分词组件，提供了多种基于词典的分词算法，并利用ngram模型来消除歧义。能准确识别英文、数字，以及日期、时间等数量词，能识别人名、地名、组织机构名等未登录词。能通过自定义配置文件来改变组件行为，能自定义用户词库、自动检测词库变化、支持大规模分布式环境，能灵活指定多种分词算法，能使用refine功能灵活控制分词结果，还能使用词频统计、词性标注、同义标注、反义标注、拼音标注等功能。提供了10种分词算法，还提供了10种文本相似度算法，同时还无缝和Lucene、Solr、ElasticSearch、Luke集成。
