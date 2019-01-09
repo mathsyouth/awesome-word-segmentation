@@ -7,6 +7,10 @@ A curated list of resources dedicated to word segmentation
 
 ### Chinese Word Segmentation Packages
 
+1. [pkuseg-python](https://github.com/lancopku/pkuseg-python) 高准确度中文分词工具，简单易用，跟现有开源工具相比大幅提高了分词的准确率。`pkuseg` 具有如下几个特点：
+   * 高分词准确率
+   * 多领域分词。根据待分词的领域特点，用户可以自由地选择不同的模型。
+   * 支持用户自训练模型。支持用户使用全新的标注数据进行训练。
 1. [Jieba 结巴中文分词](https://github.com/fxsjy/jieba)
 1. [HanLP: Han Language Processing](https://github.com/hankcs/HanLP) 是由一系列模型与算法组成的NLP工具包，目标是普及自然语言处理在生产环境中的应用。[pyhanlp](https://github.com/hankcs/pyhanlp) 是 HanLP 的 Python 接口。 
 1. [SnowNLP: Simplified Chinese Text Processing](https://github.com/isnowfy/snownlp) 提供中文分词功能，分词是基于 [Character-Based Generative Model](http://aclweb.org/anthology//Y/Y09/Y09-2047.pdf) 实现。
